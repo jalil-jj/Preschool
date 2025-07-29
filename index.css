@@ -1,0 +1,181 @@
+body {
+    direction: rtl;
+    margin: 0;
+}
+
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+
+/* Topbar */
+
+.topbar_section {
+    background-image: url(./image/Subtract\ \(1\).png);
+    background-repeat: no-repeat;
+    position: relative;
+    height: 200vh;
+}
+
+.topbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.topbar_menus-wrapper ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.topbar_menus-wrapper ul li {
+    margin-right: 3rem;
+    list-style: none;
+}
+
+.topbar_menus-wrapper ul li a {
+    color: black;
+    text-decoration: none;
+    transition: all .5s ease-in;
+    -webkit-transition: all .5s ease-in;
+    -moz-transition: all .5s ease-in;
+    -ms-transition: all .5s ease-in;
+    -o-transition: all .5s ease-in;
+}
+
+.topbar_menus-wrapper ul li a:hover {
+    background-color: rgb(0, 0, 0);
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    padding: .5rem 2rem;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    font-size: 1.5rem;
+    color: #ffff;
+}
+
+.topbar_icon-toggle {
+    display: none;
+}
+
+/* Topbar_Botton */
+
+.topbar_botton {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 3rem;
+}
+
+.topbar_botton-right {
+    width: 45%;
+}
+
+.topbar_botton-right h1 {
+    font-size: 2rem;
+    line-height: 3rem;
+}
+
+.topbar_botton-right p {
+    color: gray;
+    font-weight: bold;
+    line-height: 1.5rem;
+    margin: 2rem auto;
+}
+
+.topbar_botton-right button {
+    background-color: #3CA642;
+    color: #ffff;
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+    font-size: 1.5rem;
+    padding: .3rem 2rem;
+    border: none;
+}
+
+.topbar_botton-left {
+    width: 45%;
+}
+
+.topbar_botton-left img {
+    width: 100%;
+}
+
+
+
+
+
+
+@media (max-width: 768px) {
+
+
+    .topbar_menus-wrapper {
+        display: none;
+    }
+
+    .topbar_icon {
+        display: none;
+    }
+
+    .topbar_icon-toggle {
+        display: block;
+    }
+
+
+
+    .topbar_botton {
+        flex-direction: column;
+    }
+
+    .topbar_botton-right {
+        width: 100%;
+    }
+
+    .topbar_botton-left {
+        margin-top: 4rem;
+        width: 100%;
+    }
+}
+
+
+
+@media (max-width: 480px) {
+    .topbar_botton-right h1 {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pp {
+    height: 10000px;
+}
