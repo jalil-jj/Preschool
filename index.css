@@ -15,7 +15,7 @@ body {
     background-image: url(./image/Subtract\ \(1\).png);
     background-repeat: no-repeat;
     position: relative;
-    height: 200vh;
+    padding-bottom: 20rem;
 }
 
 .topbar {
@@ -112,9 +112,90 @@ body {
     width: 100%;
 }
 
+/* Plan Section */
 
+.plan {
+    margin-top: 5rem;
+    text-align: center;
+}
 
+.plan p {
+    font-size: 1.2rem;
+    color: gray;
+}
 
+.plan h2 {
+    font-size: 2rem;
+}
+
+.plan_boxes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.plan-box {
+    width: 22%;
+    min-width: 280px;
+    height: 280px;
+    border: 1px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.plan-box div {
+    background-color: orange;
+    width: 50px;
+    height: 50px;
+    padding: 1rem;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.plan-box .red {
+    background-color: red;
+}
+
+.plan-box.green {
+    background-color: #3CA642;
+    color: #ffff;
+}
+
+.plan-box.green p {
+    color: #ffff;
+}
+
+.plan-box .white {
+    background-color: #ffff;
+}
+
+.plan-box .purple {
+    background-color: purple;
+}
+
+.plan_boxes h3 {
+    margin: 1rem auto;
+}
+
+.plan_boxes p {
+    padding: 0 1rem;
+    margin-top: 0;
+}
 
 
 @media (max-width: 768px) {
@@ -155,7 +236,6 @@ body {
         font-size: 1.5rem;
         line-height: 2rem;
     }
-
 }
 
 
